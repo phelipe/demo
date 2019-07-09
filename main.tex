@@ -1,0 +1,64 @@
+
+\documentclass{bredelebeamer}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\title[Titre version courte]{Ambientes de desenvolvimento para softwares embarcados}
+% Titre du diaporama
+
+\subtitle{Buildroot, OpenEmbedded/Yocto}
+% Sous-titre optionnel
+
+\author[Oliveira, P. W.]{Phelipe Wesley de Oliveira\inst{1}}
+% La commande \inst{...} Permet d'afficher l' affiliation de l'intervenant.
+% Si il y a plusieurs intervenants: Marcel Dupont\inst{1}, Roger Durand\inst{2}
+% Il suffit alors d'ajouter un autre institut sur le modèle ci-dessous.
+
+\institute[UFC]
+{
+  \inst{1}%
+  Universidade Federal do Ceará
+  }
+
+
+\date{}
+% Optionnel. La date, généralement celle du jour de la conférence
+
+\subject{Aula 1}
+% C'est utilisé dans les métadonnes du PDF
+
+
+
+\logo{
+\includegraphics[scale=0.05]{images/logo.png}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\logo{}
+
+
+
+\begin{frame}{Índice}
+  \tableofcontents
+  % possibilité d'ajouter l'option [pausesections]
+\end{frame}
+
+\input{partes/parte1.tex}
+
+\input{partes/parte2.tex}
+
+
+\end{document}
